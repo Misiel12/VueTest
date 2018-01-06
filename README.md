@@ -4,12 +4,24 @@
 
 ## Build Setup
 
+Se intalo con los comandos
+
 ``` bash
+
+# Proyecto desde cero 
+npm install -g vue-cli
+
+#instalar template
+vue init webpack-simple
+
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
+
+# instalr el router
+npm install --save vue-router
 
 # build for production with minification
 npm run build
